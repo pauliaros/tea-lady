@@ -1,1 +1,37 @@
-/* Escribe acá tus estilos*/
+body {
+	font-family: 'Pacifico', cursive;
+	background: url("../img/tealady.jpg");
+	background-size: cover;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+#formulario {
+	text-align: center;
+	font-size: 18px;
+}
+
+.formu {
+	text-align-last: center;	
+	font-weight: 100;
+	font-size: 0.9em;	
+	background: #FFFFEB;
+	width: 600px;
+	height: 400px;
+	margin: 30px auto;
+	padding: 15px;
+	border-radius: 5px;
+	
+	-webkit-box-sizing: border-box;
+}
+#name, #lastname, #email, #address, #phone{
+	text-align-last: center;
+	width: 180px;
+	height: 18px;
+	background-color: #FCEFD0;
+}
+
